@@ -12,15 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
-        android:id="@+id/textView1"/>
-
-    <ZoomControls
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/zoomControls"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            />
+        android:id="@+id/textView1"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_alignTop="@+id/imageContainer"/>
 
     <ImageView
             android:layout_width="wrap_content"
@@ -32,22 +26,12 @@
             android:layout_marginTop="95dp"
             android:clickable="true"/>
 
-    <AnalogClock
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/analogClock"
-            android:layout_alignRight="@+id/zoomControls"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="47dp"
-            android:alpha="50"/>
-
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
-            android:id="@+id/textView1"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="187dp"/>
+            android:text="drawing ms."
+            android:layout_toRightOf="@+id/imageContainer"
+            android:layout_below="@+id/imageContainer"
+            android:id="@+id/textView"/>
 
 </RelativeLayout>
