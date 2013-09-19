@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
         android:id="@+id/textView1"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_alignTop="@+id/imageContainer"/>
+        android:layout_toRightOf="@+id/imageContainer"
+        android:layout_below="@+id/imageContainer"/>
 
     <ImageView
             android:layout_width="wrap_content"
@@ -25,13 +25,5 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="95dp"
             android:clickable="true"/>
-
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="drawing ms."
-            android:layout_toRightOf="@+id/imageContainer"
-            android:layout_below="@+id/imageContainer"
-            android:id="@+id/textView"/>
 
 </RelativeLayout>
