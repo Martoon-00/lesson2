@@ -21,9 +21,19 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageContainer"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="78dp"
+            android:layout_marginLeft="0dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="95dp"
+            android:layout_marginTop="0dp"
             android:clickable="true"/>
+
+    <AnalogClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/analogClock"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44dp"
+            android:layout_alignParentEnd="false"/>
 
 </RelativeLayout>
